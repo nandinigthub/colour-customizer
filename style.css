@@ -1,6 +1,8 @@
 /* base */
 :root {
     --primary-color: #0061f2;
+    --secondary-color:#dae7fb;
+    --tertiary-color:#f8f9fa
 }
 
 * {
@@ -53,7 +55,8 @@
   }
   .navbar-light .navbar-brand {
     color: var(--primary-color);
-    font-family: 'Share', cursive;}
+    font-family: 'Share', cursive;
+  }
 
   .navbar-brand{
     font-size: 2.2 rem !important;
@@ -74,14 +77,83 @@
     font-size: 1.3rem;
   }
   .sec1 .btn-primary-soft{
-    background-color:  #dae7fb;
+    background-color: var(--secondary-color);
     color: var(--primary-color);
   }
 
-  .box {
-    width: 500px; 
-    height: 100px;  
-    border: solid 5px #000;
-    border-color: #000 transparent transparent transparent;
-    border-radius: 0 100px 0 50%/100px ;
+  .sec2 {
+    background-color: var(--tertiary-color);
+    padding-bottom: 80px;
+    
   }
+
+  .sec2 .part{    
+    text-align: center;
+    padding-top: 80px;
+  }
+  
+  
+  .sec2 .part p{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    /* box-sizing: content-box; */
+    border-radius: 20px;    
+  }
+ 
+  .sec2 .part2 p{
+    background-color:var(--tertiary-color);
+    color: #69707a;
+    font-size: 1.3rem;
+    margin-bottom: 80px;
+  }
+  
+  .sec2 h6{
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .sec2 .card{
+    
+    border-radius: 10px;
+}
+.sec2 .card:hover{
+  box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+  .sec3 .part{    
+    text-align: center;
+    padding-top: 80px;
+  }
+  
+  
+  .sec3 .part p{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    /* box-sizing: content-box; */
+    border-radius: 20px;    
+  }
+ 
+  .sec3 .part2 p{
+    background-color:#fff;
+    color: #69707a;
+    font-size: 1.3rem;
+    margin-bottom: 80px;
+  }
+
+  .sec4 h6{
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .sec6{
+    padding-top: 70px;
+  }
+
+  .footer .container{
+    padding-top: 30px;
+  }
+
+  .footer .bi{
+    font-size: 2rem;
+  }
+   
