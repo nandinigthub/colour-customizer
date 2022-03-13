@@ -8,3 +8,9 @@ themeButtons.forEach(color =>{
         document.querySelector(':root').style.setProperty("--primary-color")
     })
 })
+
+var loader = document.getElementById("preloader");
+window.addEventListener(
+    "load", function () {
+        loader.style.display = "none";
+    })
