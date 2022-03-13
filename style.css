@@ -2,7 +2,8 @@
 :root {
     --primary-color: #0061f2;
     --secondary-color:#dae7fb;
-    --tertiary-color:#f8f9fa
+    --tertiary-color:#f8f9fa;
+    --text-color:#69707a;
 }
 
 * {
@@ -102,7 +103,7 @@
  
   .sec2 .part2 p{
     background-color:var(--tertiary-color);
-    color: #69707a;
+    color: var(--text-color);
     font-size: 1.3rem;
     margin-bottom: 80px;
   }
@@ -135,7 +136,7 @@
  
   .sec3 .part2 p{
     background-color:#fff;
-    color: #69707a;
+    color: var(--text-color);
     font-size: 1.3rem;
     margin-bottom: 80px;
   }
@@ -147,6 +148,10 @@
 
   .sec6{
     padding-top: 70px;
+  }
+
+  .sec6 .display-1{
+    color: var(--text-color);
   }
 
   .footer .container{
