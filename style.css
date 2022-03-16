@@ -172,60 +172,7 @@
     font-size: 2rem;
   }
    
-/* 
-  .switcher-btn{
-    padding-top: 25px;
-  }
 
-  .color-switcher {
-    position: fixed;
-    top:25px; right: 0;
-    width: 150px;
-    padding: 5px;
-    background: var(--primary-color);
-    z-index:1000;
-
-  }
-  .color-switcher :active{
-    right: 0;
-  }
-
-
-  .color-switcher h3{
-    color:#fff;
-    font-size: 1.3rem;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #333;
-    padding: 5px 0;
-    text-align:center;
-  }
-  .color-switcher  .switcher-btn{
-    position: absolute;
-    top:0; left: -75px;
-    color: #fff;
-    background: var(--primary-color);
-    padding: 0px 20px;
-    cursor: pointer;
-    font-size: 35px;
-  }
-
-  .color-switcher .switcher-btn i{
-    animation:rotate 2s linear infinite;
-  }
-
-  @keyframes rotate{
-    100%{
-      transform: rotate(360deg);
-    }
-  }
-
-
-  .color-switcher .theme-buttons-container{
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  } */
 
   .color-switcher{
     position: fixed;
@@ -242,7 +189,7 @@
 } 
 
 .color-switcher h2{
-    color: var(--main-color);
+    color: var();
     font-size: 20px;
     margin-bottom: 10px;
     border-bottom: 10px solid black;
@@ -251,23 +198,24 @@
 
 } 
 .container .container-fluid a{
-    color: var(--main-color);
+    color: var(--primary-color);
 }
-.u1 h2{
-    color: var(--main-color);
-}
+/* .u1 h2{
+    color: var(--primary-color);
+} */
 
 
 
 .color-switcher .switcher-btn{
     position: absolute;
     top: 0px; left: -75px;
-    color: var(--main-color);
+    color: var(--primary-color);
     background: rgb(255, 255, 255);
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     cursor: pointer;
     font-size: 35px;
     border-radius: 9px;
+    background: transparent;
 }
 .color-switcher .switcher-btn i{
  animation: rotate 2s linear infinite;
@@ -301,11 +249,12 @@
     margin-left: 17px;
     font-weight: bold;
 }
+
 .btn,
 .btn:hover,
 .btn:active,
 .btn:visited{
-    background-color: var(--main-color);
+    background-color: var(--primary-color);
     color: whitesmoke;
     margin-left: 47px;
 }
