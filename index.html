@@ -12,7 +12,6 @@
   <!-- css stylesheet -->
   <link rel="stylesheet" href="style.css" />
 
-
   <!-- icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,8 +25,6 @@
 
 <body>
 
-  <!-- preloader -->
-  <div id="preloader"></div>
 
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -94,27 +91,8 @@
     </div>
   </nav>
 
-  
-  <!-- color customizer -->
-  <div class="color-switcher mt-5">
-    <div class="switcher-btn">
-      <i class="bi bi-gear-fill"></i>
-    </div>
-    <h3>Select Color</h3>
-    <div class="theme-btn-container">
-      <span class="theme-btn" data-color="#8644ad" style="background-color: #8644ad;"></span>
-      <span class="theme-btn" data-color="#2980b9" style="background-color: #2980b9;"></span>
-      <span class="theme-btn" data-color="#f39c12" style="background-color: #f39c12;"></span>
-      <span class="theme-btn" data-color="#27ae60" style="background-color: #27ae60;"></span>
-      <span class="theme-btn" data-color="#e74c3c" style="background-color: #e74c3c;"></span>
-      <span class="theme-btn" data-color="#e84393" style="background-color: #e84393;"></span>
-      <span class="theme-btn" data-color="#ff4757" style="background-color: #ff4757;"></span>
-      <span class="theme-btn" data-color="#ffc312" style="background-color: #ffc312;"></span>
-      <span class="theme-btn" data-color="#17c0eb" style="background-color: #17c0eb;"></span>
 
-    </div>
-  </div>
-  
+
   <!-- sec1 -->
   <div id="sec1 ">
     <div class="sec1">
@@ -443,8 +421,7 @@
           </p>
         </div>
       </div>
-      <div class="text-center"><a class="btn btn-primary fw-500"
-          href="#">View Documentation</a></div>
+      <div class="text-center"><a class="btn btn-primary fw-500" href="#">View Documentation</a></div>
     </div>
     <div class="svg-border-rounded text-light">
       <!-- Rounded SVG Border-->
@@ -523,22 +500,50 @@
     </div>
   </footer>
 
+   <!-- Theme changer -->
 
-  <script src="main.js"></script>
+   <div class="color-switcher">
 
-  <!-- Optional JavaScript; choose one of the two!-->
+    <div class="switcher-btn">
+        <i class="fa-solid fa-gear"></i>
+    </div>
+    <h3>Select color</h3>
+    <div class="theme-buttons-container">
+        <span class="theme-buttons" data-color="#0061f2" style="background:#0061f2;"></span>
+        <span class="theme-buttons" data-color="#f39c12" style="background:#f39c12;"></span>
+        <span class="theme-buttons" data-color="#00702f" style="background:#00702f;"></span>
+        <span class="theme-buttons" data-color="#ea2027" style="background:#ea2027;"></span>
+        <span class="theme-buttons" data-color="#d10668" style="background:#d10668;"></span>
+        <span class="theme-buttons" data-color="#ff4757" style="background:#ff4757;"></span>
+        <span class="theme-buttons" data-color="#ffc312" style="background:#ffc312;"></span>
+        <span class="theme-buttons" data-color="#00a6cf" style="background:#00a6cf;"></span>
+        <span class="theme-buttons" data-color="#b700ff" style="background:#b700ff;"></span>
+    </div>
+</div> 
 
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+
+
+</div>
+
+
+
+<script src="main.js"></script>
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-    crossorigin="anonymous"></script>
+<!-- Option 2: Separate Popper and Bootstrap JS -->
 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
 </body>
 

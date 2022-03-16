@@ -1,16 +1,12 @@
-document.querySelector('.switcher-btn').onlick =() =>{
+ document.querySelector('.switcher-btn').onclick = () => {
     document.querySelector('.color-switcher').classList.toggle('active');
 };
-let themeButtons = document.querySelectorAll('.theme-buttons');
-themeButtons.forEach(color =>{
-    color.addEventListener('click',() =>{
-        let dataColor = color.getAttribute('data-color');
-        document.querySelector(':root').style.setProperty("--primary-color")
-    })
-})
 
-var loader = document.getElementById("preloader");
-window.addEventListener(
-    "load", function () {
-        loader.style.display = "none";
+let themebuttons = document.querySelectorAll('.theme-buttons');
+themebuttons.forEach(color => {
+    color.addEventListener('click', () => {
+        let datacolor = color.getAttribute('data-color');
+    document.querySelector(':root').style.setProperty('--main-color',datacolor);
     })
+
+});
