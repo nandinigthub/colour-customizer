@@ -1,7 +1,7 @@
 /* base */
 :root {
     --primary-color: #0061f2;
-    --secondary-color:#dae7fb;
+    --secondary-color:#d9e5f3;
     --tertiary-color:#f8f9fa;
     --text-color:#69707a;
 }
@@ -24,7 +24,11 @@
   
   a {
     text-decoration: none;
+    color: var(--primary-color);
     
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: var(--primary-color);
   }
   
   .btn {
@@ -170,6 +174,11 @@
 
   .footer .bi{
     font-size: 2rem;
+    color: var(--primary-color);
+  }
+
+  .footer ul{
+    color: red;
   }
    
 
